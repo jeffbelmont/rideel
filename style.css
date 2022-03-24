@@ -1,0 +1,774 @@
+body{
+    color:#333;
+}
+header{
+    height: 76px;
+    background-color: #FFF;
+
+}
+#logo {
+    width: 155px;
+    margin-top:15px;
+    float: left;
+}
+#btnMenu{
+    height: 36px;
+    margin-top: 20px;
+    background-color: #e30613;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#buscar{
+    height: 36px;
+    margin-top: 20px;
+}
+#basic-addon2{
+    background-color: #FFF !important;
+    color: #e30613;
+}
+#iptBuscar{
+    float: left;
+}
+#menu{
+    height: 36px;
+    margin-top: 20px;
+    padding-top: 7px;
+}
+.menu2{
+    font-weight: bold;
+    margin-left: 10px;
+    float: left;
+    color: #333;
+    text-decoration: none; 
+}
+#menu a:hover{
+    color:#e30613 !important;
+}
+#cartShopping{
+    float: right;
+}
+#iconCartShopping{
+    float: left;
+    padding-top: 5px;
+    font-size: 20px;
+}
+#ballCart{
+    width: 30px;
+    color: #e30613;
+    height: 30px;
+    background-color:#fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 5px;
+    font-weight: bold;
+    border: 1px solid #ced4da
+}
+.bloco1{
+    height: 940px;
+    margin-top: 10px;
+}
+.vitrine1{
+    width: 30.9%;
+    height: 400px;
+    border: 1px solid #ced4da;
+    margin-top: 10px;
+}
+.vitrine1 img{
+    width: 76%;
+    margin: -15% 12% 0 12%;
+}
+.vitrine1 h1{
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}
+.vitrine1 h2{
+    font-size: 12px;
+    color: #333;
+}
+.vitrine1 h3{
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ccc;
+    padding-top: 3px;
+}
+.btnComprar{
+   color: #FFF;
+   background-color: green;
+   width: 40%;
+   font-size: 12px;
+}
+.flags{
+    position: relative;
+    z-index: 1;
+    left: 2px;
+    top: 2px;
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+}
+.flagPrecoOff{
+    width: 20%;
+    background-color: red;
+    margin-top: 6px;
+    padding: 2px;
+}
+.flagFreteGratis{
+    width: 30%;
+    background-color: green;
+    margin-top: 2px;
+    padding: 2px;
+}
+.precoDe{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.precoPor{
+    font-size: 26px;
+    font-weight: bold;
+    color:green;
+}
+.valorParcela{
+    font-size: 14px;
+    color: #333;
+}
+.vitrine2{
+    width: 23%;
+    height: 320px;
+    border: 1px solid #ced4da;
+    margin-top: 10px;
+}
+.autor{
+    height: 200px;
+    margin-top: 10px;
+}
+.autorFoto{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/adv_anne.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.autorFoto2{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/ricardo_baronovsky.jpeg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.autorFoto3{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/leone-pereira.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.autorFoto4{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/fernanda-rocha.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.autorFoto5{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/priscila_ferreira.jpeg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.autorFoto6{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/alessandro_sanchez.jpeg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+.autorNome{
+    width: 100px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.avaliacoes{
+    width: 31%;
+    height: 300px;
+    border: 1px solid #ced4da;
+    margin-top: 10px;
+}
+.bloco2{
+    height: 800px;
+    margin-top: 10px;
+}
+#catalogo{
+    height: 200px;
+    border: 1px solid #ced4da;
+    margin-top: 10px;
+}
+#promocaoDoDia{
+    height: 600px;
+    border: 1px solid #ced4da;
+    margin-top: 10px;
+}
+.arrowLeft{
+    width: 2.5%;
+    position: relative;
+    top:160px;
+}
+.arrowRight{
+    width: 2.5%;
+    position: relative;
+    top:160px;
+}
+.arrowLeftAutor{
+    width: 2.5%;
+    position: relative;
+    top:100px;
+}
+.arrowRightAutor{
+    width: 2.5%;
+    position: relative;
+    top:100px;
+}
+.left{
+    float: left;
+}
+#banner3{
+    width: 49.5%;
+    height: 300px;
+    margin-right: 1%;
+    border: 1px solid #ced4da;
+}
+#banner4{
+    width: 49.5%;
+    height: 300px;
+    border: 1px solid #ced4da;
+}
+footer{
+    height: 300px;
+    color: #FFF;
+    background-color:#e30613;
+    margin-top: 10px;
+}
+.mgr1{
+    margin-right:1%;
+}
+.mgt10{
+    margin-top: 10px;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    margin-left: -1px;
+    padding: 0.15rem 0.15rem;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+   -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #FFF;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 5px;
+    webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.dropdown-submenu a{
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+.dropdown-submenu a:hover{
+    background-color: #e30613;
+    color: #FFF !important;
+}
+.nav-tabs {
+    border-bottom: 0 !important;
+}
+
+/* PRODUTO */
+
+.bg-breadcrumb{
+    background-color: #e30613;
+}
+#breadcrumb{
+    height: 50px ;
+    border: 1px 0px solid #ced4da;
+    color: #FFF;
+    background-color: #e30613;
+    float: left!important;    
+} 
+#breadcrumb ul {
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+} 
+#breadcrumb li {    
+    float: left!important;
+    list-style: none;    
+}  
+#breadcrumb li a {
+    color: #FFF;
+    text-decoration: none;    
+}
+#blocoFoto{
+    height: 500px;
+    width: 49.5%;
+    margin-right: 1%;
+
+}
+#blocoPreco{
+    height: 500px;
+    width: 49.5%;
+}
+#blocoDescricao{
+    height: 650px;
+    width: 59.5%;
+    margin-right: 1%;    
+}
+#blocoCaract{
+    height: 650px;
+    width: 39.5%;
+}
+#miniaturaFoto{
+    margin-top: 10px;
+}
+.miniFoto{
+    height: 80px;
+    width: 100%;
+    background-color: #ced4da;
+    margin-bottom: 19px;
+    border: 1px solid #ced4da;
+
+}
+.miniFoto img{
+    width: 100%;
+}
+#fotoProduto{
+    height: 480px;
+    margin-top: 10px;    
+    border: 1px solid #ced4da;    
+}
+#fotoProduto img{
+    width: 90%;
+    margin: 5%;
+}
+#blocoPreco h1{
+    font-size: 22px;
+    margin-top: 20px;    
+}
+#blocoPreco h2{
+    font-size: 16px;
+    float: left;
+    margin-left: 10px;
+    color: rgb(155, 155, 155);
+}
+#avaliacoesProduto{
+    color:#e30613;
+    font-size: 12px;
+    float: right;
+}
+#avaliacoesProduto span{
+    color:#333;
+    font-size: 12px;
+}
+#degustacaoPrevenda{
+    clear: both;
+    border-top: 1px solid #ced4da;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#degustacao{
+    text-align: center;
+    float: left;
+}
+#degustacao i{
+    font-size: 22px;
+    color: #e30613;
+}
+#degustacao span{
+    font-size: 12px;
+}
+#preVenda{
+    font-weight: bold;    
+    clear: both;
+    text-align: center;
+    justify-content: center;
+}
+.preVendaTexto{
+    background-color: #F2F3F5;
+    padding: 5px;
+}
+#preVenda span{
+    color:#e30613;
+}
+#precoBotao{
+    clear: both;
+    border-top: 1px solid #ced4da;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flagDescontoProduto{
+    width: 15%;
+    background-color: #e30613;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    float: right;  
+}
+.flagFreteGratisProd{
+    width: 30%;
+    background-color: green;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    float: right;
+    margin-left: 5px; 
+}
+#precoProduto{
+    width: 100%;
+    font-size: 15px;
+}
+.precoDeProduto{
+    text-decoration: line-through;
+}
+.precoPorProduto{
+    font-size: 34px;
+    font-weight: bold;
+}
+.valorParcelaProduto{
+    color: #333;
+}
+.valorAvistaProduto{
+    font-weight: bold;
+}
+#qtdProdutos{
+    width: 80%;
+    height: 40px;
+    border:1px solid #ced4da;
+    margin-top: 50px;
+    margin-right: -10px;
+    float: right;
+}
+.iptQtd{
+    width: 60%;
+    height: 100%;
+    font-size: 19px;
+    text-align: center;
+    float: left;
+    border-right:1px solid #ced4da;
+}
+.somaQtd{
+    width: 40%;
+    height: 50%;
+    background-color: #F2F3F5;
+    color:#000;
+    text-align: center;
+    float: right;
+    border-bottom:1px solid #ced4da;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.subtraiQtd{
+    width: 40%;
+    height: 50%;
+    background-color: #F2F3F5;
+    color: #000;
+    text-align: center;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;    
+}
+
+#btnComprarProduto button{
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    color:#FFF;
+    border-radius: 0;
+    font-size: 20px;
+}
+#padlock{
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 2px 5px;
+}
+#calculoFreteProduto{
+    height: 70px;
+    clear: both;
+    border-top: 1px solid #ced4da;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#iptCalcFreteProd .form-control{
+    border-radius: 0 !important;
+}
+#iptCalcFreteProd .input-group-text{
+    border-radius: 0 !important;
+}
+.favorShare{
+    float: right;
+    padding-right: 5px;
+}
+.favorShare a{
+    color: #333;
+}
+.favorShare a:hover{
+    color: #e30613;
+}
+#observacoes{
+    clear: both;
+    border-top: 1px solid #ced4da;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#tituloObs{
+    font-size: 18px;
+}
+#conteudoObs{
+    font-size: 13px;
+}
+#conteudoObs span{
+    font-weight: bold;
+    color:#e30613;
+}
+.separacao{
+    height: 1px;
+    background-color: #ced4da;
+    margin: 10px 0;
+}
+#tituloDescr{
+    color:#e30613;
+    margin-top: 10px;
+}
+#conteudoDescr{
+    font-size: 14px;
+}
+#tituloCaract{
+    color:#e30613;
+    margin-top: 10px;
+}
+#conteudoCaract{
+    font-size: 18px;
+}
+#conteudoCaract span{
+    font-weight: bold;
+}
+#tituloCompreJunto{
+    text-align: center;
+    color: #e30613;
+}
+#blocoCompreJunto{
+    height: 400px;
+    text-align: center;
+}
+#produto1CompreJunto{
+    width: 32%;
+    margin: 0 1% 0 1%;
+}
+#produto1CompreJunto img{
+    width: 80%;
+    margin: 5% 10%;
+}
+#produto1CompreJunto span{
+    font-size: 14px;
+}
+#maisCompreJunto{
+    width: 3%;
+    height: 40px;
+    margin-right: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 180px;
+}
+#produto2e3CompreJunto{
+    width: 32%;
+    margin-right: 1%;
+}
+#iconCimaCompreJunto{
+    height: 30px;
+    width: 100%;
+}
+#produto2CompreJunto{
+    height: 170px;
+    width: 100%;
+}
+#produto2CompreJunto input{
+    width: 5%;
+    float: left;
+}
+#produto2CompreJunto img{
+    width: 45%;
+    float: left;
+}
+#produto2CompreJunto span{
+    width: 45%;
+    float: right;
+    font-size: 14px;
+    text-align: left;
+}
+#produto3CompreJunto{
+    height: 170px;
+    width: 100%;
+    clear: both;
+}
+#produto3CompreJunto input{
+    width: 5%;
+    float: left;
+}
+#produto3CompreJunto img{
+    width: 45%;
+    float: left;
+}
+#produto3CompreJunto span{
+    width: 45%;
+    float: right;
+    font-size: 14px;
+    text-align: left;
+}
+#iconBaixoCompreJunto{
+    height: 30px;
+    width: 100%;
+    clear: both;
+}
+.promoCompreJunto{
+    font-weight: bold;
+    font-size: 18px !important;
+}
+.prevendaCompreJunto{
+    background-color: #000;
+    color:#FFF;
+    font-size: 12px;
+    padding: 1px 3px;
+    text-align: center;
+
+}
+#igualCompreJunto{
+    width: 3%;
+    height: 40px;
+    margin-right: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 180px;
+}
+
+#valorCompreJunto{    
+    height: 380px;
+    width: 24%;
+    margin-top: 10px;
+    background-color: #F2F3F5;
+}
+#valorCompreJunto button{
+    width: 70%;
+    height: 70px;
+    background-color: green;
+    color:#FFF;
+    border-radius: 0;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.textoCompreJunto{
+    font-size: 18px;
+}
+.precoCompreJunto{
+    font-size: 32px;
+    font-weight: bold;
+}
+.red{
+    color: #e30613;
+    font-weight: bold;
+}
+#resCompreJunto{
+    height: 200px;
+    margin-top: 80px;
+}
+.freteCompreJunto{
+    font-size: 20px;
+    font-weight: bold;
+}
+#tituloAvaliacoesProduto{
+    color:#e30613;
+    text-align: center;
+}
+#estrelasAvaliacoesProduto{
+    color:#e30613;
+    text-align: center;
+}
+#estrelasAvaliacoesProduto span{
+    color: #333;
+    text-align: center;
+}
+.usuarioFoto{
+    text-align: center;
+    border-right: 1px solid #ced4da;
+}
+.usuarioFoto img{
+    margin: 0 auto;    
+}
+.avaliacaoUsuario{
+    color: #FFCC00;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ced4da;
+}
+.avaliacaoUsuario span{
+    color: #333;
+    font-weight: bold;
+}
+.textoAvalicaoUsuario{
+    margin-top: 10px;
+}
+.textoAvalicaoUsuario span{
+    font-weight: bold;
+}

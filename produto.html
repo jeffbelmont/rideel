@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editora Rideel</title>
+    <!--<script>
+        var largura = window.innerWidth
+        document.documentElement.clientWidth
+        document.body.clientWidth;
+        var altura = window.innerHeight
+        document.documentElement.clientHeight
+        document.body.clientHeight;
+    </script>-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+    <header>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-2">
+                  <a href="index.html"><img id="logo" src="img/logoEditoraRideel.png" alt="logomarca editora rideel"></a>
+                </div>
+
+                <div  class="col-1">
+                   
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item dropdown">
+                        <a id="btnMenu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MENU</a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                          
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Vade Mecum Rideel</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" class="dropdown-item" href="produto.html">Vade Mecum Acadêmico</a></li>
+                             <li><a class="dropdown-item" href="#">Vade Mecum Compacto</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Compre por Concurso</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" class="dropdown-item" href="#">Obras Jurídicas</a></li>
+                             <li><a class="dropdown-item" href="#">Obras Gerais</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Compre por Disciplina</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" class="dropdown-item" href="#">Código de Trânsito</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Administrativo</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Ambiental</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Civil</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Constitucional</a></li>
+                             <li><a class="dropdown-item" href="#">Direito do Consumidor</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Empresarial</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Eleitoral</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Internacional</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Militar</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Penal</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Previdenciario</a></li>
+                             <li><a class="dropdown-item" href="#">Direito do Trabalho</a></li>
+                             <li><a class="dropdown-item" href="#">Direito Tributario</a></li>
+                             <li><a class="dropdown-item" href="#">Outras Disciplinas</a></li>
+                            </ul>
+                          </li>
+                          
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Linha OAB</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" class="dropdown-item" href="#">1ª Fase</a></li>
+                              <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-item">2ª Fase - Damásio</a>
+                                <ul class="dropdown-menu">
+                                   <li><a class="dropdown-item" href="#">Civil</a></li>
+                                   <li><a class="dropdown-item" href="#">Constitucional</a></li>
+                                   <li><a class="dropdown-item" href="#">Empresarial</a></li>
+                                   <li><a class="dropdown-item" href="#">Trabalhista</a></li>
+                                   <li><a class="dropdown-item" href="#">Tributário</a></li>
+                                </ul>
+                              </li>
+                             <li><a class="dropdown-item" href="#">2ª Fase - Estratégia</a></li>
+                             <li><a class="dropdown-item" href="#">2ª Fase - Gran Cursos</a></li>
+                             <li><a class="dropdown-item" href="#">2ª Fase - Legislação Específica</a></li>
+                             <li><a class="dropdown-item" href="#">2ª Fase - Licínia e Tatiane</a></li>
+                             <li><a class="dropdown-item" href="#">2ª Fase - Portal F3</a></li>
+                             <li><a class="dropdown-item" href="#">2ª Fase - Outros Cursos</a></li>
+                             <li><a class="dropdown-item" href="#">Coleção Direto e Reto</a></li>
+                             <li><a class="dropdown-item" href="#">Série Rideel FLIX</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Outras Áreas</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" class="dropdown-item" href="#">Dicionários Jurídicos</a></li>
+                             <li><a class="dropdown-item" href="#">Enem</a></li>
+                             <li><a class="dropdown-item" href="#">Obras Gerais</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Graduação</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" class="dropdown-item" href="#">Coleção Códigos de Bolso</a></li>
+                              <li><a class="dropdown-item" href="#">Coleção Direto e Reto</a></li>
+                              <li><a class="dropdown-item" href="#">Coleção Maxiletra</a></li>
+                              <li><a class="dropdown-item" href="#">Fichário de Lei Seca</a></li>
+                              <li><a class="dropdown-item" href="#">Série Rideel FLIX</a></li>
+                              <li><a class="dropdown-item" href="#">Vade Mecum</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" class="dropdown-item" href="#">Lançamentos</a>
+                            <ul class="dropdown-menu">
+
+                              <li class="dropdown-submenu">
+                                <a tabindex="-1" class="dropdown-item" href="#">2ª Fase - Damásio</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Civil</a></li>
+                                  <li><a class="dropdown-item" href="#">Constitucional</a></li>
+                                  <li><a class="dropdown-item" href="#">Empresarial</a></li>
+                                  <li><a class="dropdown-item" href="#">Trabalhista</a></li>
+                                  <li><a class="dropdown-item" href="#">Tributário</a></li>
+                                </ul>
+                              </li>
+                              <li><a class="dropdown-item" href="#">2ª Fase - Estratégia</a></li>
+                              <li><a class="dropdown-item" href="#">2ª Fase - Gran Cursos</a></li>
+                              <li><a class="dropdown-item" href="#">2ª Fase - Legislação Específica</a></li>
+                              <li><a class="dropdown-item" href="#">2ª Fase - Portal F3</a></li>
+                              <li><a class="dropdown-item" href="#">Coleção Códigos de Bolso</a></li>
+                              <li><a class="dropdown-item" href="#">Coleção Direto e Reto</a></li>
+                              <li><a class="dropdown-item" href="#">Coleção Maxiletra</a></li>
+                              <li><a class="dropdown-item" href="#">Vade Mecum Rideel</a></li>
+
+                            </ul>
+                          </li>
+
+                          <li class="#">
+                            <a tabindex="-1" class="dropdown-item" href="#">Promoções</a>
+                          </li>
+                          
+                          <li class="#">
+                            <a tabindex="-1" class="dropdown-item" href="#">Linha Infantil Bicho Esperto</a>
+                          </li>
+
+                        </ul>
+                      </li>
+                    </ul>
+                    
+
+                </div>
+
+                <div id="buscar" class="col-4">                  
+                  <div class="input-group">
+                      <input id="iptBuscar" type="text" class="form-control" placeholder="O que você está procurando?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                  </div>
+                </div>
+
+
+                <div id="menu" class="col-5">
+
+                    <a href="http://apprideel.com.br/" class="menu2" title="Atualização"><i class="fa-solid fa-arrows-rotate"></i> Atualização</a>
+                    <a href="#" class="menu2" title="Rastreio"><i class="fa-solid fa-truck"></i> Rastreio</a>
+                    <a href="#" class="menu2" title="Atendimento"><i class="fa-solid fa-headset"></i> Atendimento</a>
+                    <a href="#" class="menu2" title="Login"><i class="fa-solid fa-user"></i> Login</a>
+                    <a href="#" id="cartShopping" class="menu2" title="Carrinho de Compras"><i id="iconCartShopping" class="fa-solid fa-cart-shopping"></i> <span id="ballCart">3</span></a>
+                
+                </div>
+            </div>
+
+        </div>
+            
+    </header>
+    
+    <div class="row bg-breadcrumb">
+      <div class="col-12">
+        <div class="container" id="breadcrumb">
+          <ul>
+            <li><a href="/">Home |</a></li>
+            <li><a href="/compre-por-disciplina"><span>&nbsp;Compre por disciplina |</span></a></li>
+            <li><a href="/rideel" title="Rideel" itemprop="url"><span>&nbsp;Rideel |</span></a></li>
+            <li><span>&nbsp;Vade Mecum Acadêmico de Direito Rideel - 34ª edição - 1ª semestre 2022</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="container mgt10" id="produto">
+          <div class="row">
+            <div class="col-6 row" id="blocoFoto">
+              <div class="col-2" id="miniaturaFoto">
+                <div class="miniFoto">
+                  <img src="img/vade-mecum-academico-de-direito-rideel-34-edicao-1-semestre-2022.jpg" alt="">
+                </div>
+                <div class="miniFoto">
+                  <img src="img/vade-mecum-academico-de-direito-rideel-34-edicao-1-semestre-2022-2.jpg" alt="">
+                </div>
+                <div class="miniFoto"></div>
+                <div class="miniFoto"></div>
+                <div class="miniFoto"></div>               
+              </div>
+              <div class="col-10" id="fotoProduto">
+                <img src="img/vade-mecum-academico-de-direito-rideel-34-edicao-1-semestre-2022.jpg" alt="">                
+              </div>
+
+            </div>
+            <div class="col-6" id="blocoPreco">
+              <div class="#" id="#">
+                <h1>VADE MECUM ACADÊMICO DE DIREITO RIDEEL - 34ª EDIÇÃO - 1ª SEMESTRE 2022</h1>
+                <h2>Anne Joyce Angher</h2>
+                <div id="avaliacoesProduto">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(18) Avaliar produto</span>
+                </div>
+              </div>
+
+              <div class="#" id="degustacaoPrevenda">
+                <div class="row">
+                  <div class="col-4">
+                    <div id="degustacao">
+                      <i class="fa-solid fa-book"></i></br>
+                      <span>Degustação</span>
+                    </div>
+                  </div>
+                  <div  id="preVenda" class="col-8">
+                    <div class="preVendaTexto">PRÉ-VENDA, ENVIO A PARTIR DE <span>12/03/2022</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="#" id="precoBotao">
+                <div class="row">
+                  <div class="col-5">
+                    <div id="precoProduto">
+                      DE <span class="precoDeProduto">R$ 239,90</span><span class="flagFreteGratisProd">Frete Grátis</span><span class="flagDescontoProduto">-10%</span><br>POR </span><span class="precoPorProduto">R$ 215,91</span><br><span class="valorParcelaProduto"> até 3x de R$ 71,97 sem juros</span><br>ou <span class="valorAvistaProduto">R$ 209,43</span> no PIX (-3%)
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div id="qtdProdutos">
+                      <div class="iptQtd">5</div>
+                      <div class="somaQtd">+</div>
+                      <div class="subtraiQtd">-</div>
+                    </div>
+                  </div>
+                  <div  id="btnComprarProduto" class="col-5">
+                    <span id="padlock"><i class="fa-solid fa-lock"></i> LOJA SEGURA</span>
+                    <button type="button" class="btn"><i class="fa-solid fa-cart-shopping"></i> COMPRAR</button>                    
+                  </div>
+                </div>
+              </div>
+              
+              <div class="#" id="calculoFreteProduto">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="input-group input-group-sm" id="iptCalcFreteProd">
+                      <input type="text" class="form-control" placeholder="Calcule o Frete" aria-label="#" aria-describedby="basic-addon2">
+                      <span class="input-group-text">OK</span>
+                    </div>
+                  </div>
+                  <div  id="#" class="col-8">
+                    <div class="favorShare">
+                      <a href="" title="Adicionar aos favoritos"><i class="fa-solid fa-star"></i></a>
+                      <a href="" title="Compartilhar"><i class="fa-solid fa-share-nodes"></i></a>
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="#" id="observacoes">
+                <div class="row">
+                  <div class="col-12">
+                    <h5 id="tituloObs">Observações:</h5>
+                    <div id="conteudoObs">
+                      A PRÉ-VENDA É A RESERVA DE UM PRODUTO QUE ESTÁ EM PRODUÇÃO NA GRÁFICA. O PRAZO DE ENTREGA DO SEU LIVRO É CALCULADO A PARTIR DA DATA DA CHEGADA NA EDITORA, QUE ESTÁ PREVISTA PARA O DIA <span>12/03/2022</span>.
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 separacao"></div>
+            <div class="col-8" id="blocoDescricao">
+              <div class="col-12">
+                <h5 id="tituloDescr">SINOPSE</h5>
+                <div id="conteudoDescr">
+                  <p>Autor: Anne Joyce Angher</p>
+                  <p>Edição atualizada até 10-1-2022</p>
+                  <p>Seu Vade Mecum Acadêmico com o jeito Rideel de ser!</p>
+                  <p>Chega à 34ª edição com uma trajetória de sucesso e milhares de impressões vendidas. E tem sido coadjuvante na vitória de concurseiros, oabeiros e profissionais da área do Direito.
+                  <p>Ele vem super atualizado e com um brinde especial para os seus leitores!
+                  <p>Além de possuir o maior conteúdo impresso do mercado, ele proporciona aos profissionais, aos estudantes de Direito e aos concurseiros acesso fácil e simplificado à vasta quantidade de normas do nosso ordenamento jurídico.
+                  <p>A obra apresenta CF, principais Códigos, Legislação Complementar Geral, Legislação de Direito Previdenciário, Legislação de Direito Administrativo, Legislação de Direito Financeiro, Legislação de Direito Ambiental, Legislação de Direito Internacional, Regimentos Internos do STF e do STJ e Súmulas dos Tribunais Superiores. Visando agilizar a localização do conteúdo buscado, traz índices sistemáticos e alfabético-remissivos. Para facilitar ainda mais a consulta do leitor, a capa traz um guia referencial de pesquisa. Assim, basta verificar nela a cor da seção que deseja consultar e localizá-la nas tarjas laterais da obra.</p>
+                  <p>E o melhor: sem surpresa na hora da prova, esse você pode levar!</p>
+                  <p>► Notas remissivas à legislação, às súmulas e às orientações jurisprudenciais.</p>
+                  <p>► Atualizações de 2021 e 2022 em destaque.</p>
+                  <p>Atualizações publicadas até 31-10-2022 disponíveis gratuitamente e no formato da página.</p>
+                  <p>Acesse: www.apprideel.com.br</p>
+                </div>
+              </div>  
+            </div>
+            <div class="col-4" id="blocoCaract">
+              <div class="col-12">
+                <h5 id="tituloCaract">INFORMAÇÕES TÉCNICAS</h5>
+                <div id="conteudoCaract">
+                  <span>País Origem: </span>Brasil<br>
+                  <span>Acabamento: </span>Capa dura<br>
+                  <span>Edição: </span>34ª edição<br>
+                  <span>Editora: </span>Editora Rideel<br>
+                  <span>Formato: </span>17x24 cm<br>
+                  <span>ISBN: </span>9786557384565<br>
+                  <span>Lançamento: </span>2022<br>
+                  <span>Linguagem: </span>Português<br>
+                  <span>Número de páginas: </span>2664
+                </div>
+              </div>               
+            </div>
+            <div class="col-12 separacao"></div>
+            <h3 class="col-12" id="tituloCompreJunto">COMPRE JUNTO E GANHE DESCONTO</h3>
+            <div class="col-12 row" id="blocoCompreJunto">
+
+              <div class="col-4" id="produto1CompreJunto">                
+                <img src="img/vade-mecum-academico-de-direito-rideel-34-edicao-1-semestre-2022.jpg" alt="">
+                <span>VADE MECUM ACADÊMICO DE DIREITO RIDEEL - 34ª EDIÇÃO - 1ª SEMESTRE 2022</span>
+              </div>
+              <div class="col-1" id="maisCompreJunto">                
+                <span class="iconMaisCompreJunto">+</span>
+              </div> 
+              <div class="col-3" id="produto2e3CompreJunto">
+                
+                <div id="iconCimaCompreJunto">
+                  <i class="fa-solid fa-angle-up"></i>
+                </div>
+                
+                <div id="produto2CompreJunto">
+
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                  <img src="img/codigo-de-transito-brasileiro-ctb-de-bolso-3-edicao.jpg" alt="">
+                  <span class="prevendaCompreJunto">Produto em Pré-Venda</span>
+                  <span>CÓDIGO DE TRÂNSITO BRASILEIRO - CTB ...</span><br><span class="precoDeProduto">R$ 25,00</span><br><span class="promoCompreJunto">R$ 22,50</span>
+
+                </div>
+                
+                <div id="produto3CompreJunto">
+
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                  <img src="img/codigo-de-processo-penal-cpp-de-bolso-4-edicao.jpg" alt="">
+                  <span>CÓDIGO DE PROCESSO PENAL - CPP ...</span><br><span class="precoDeProduto">R$ 239,90</span><br><span class="promoCompreJunto">R$ 215,91</span>
+
+                </div>
+
+                <div id="iconBaixoCompreJunto">
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+
+              </div>
+              <div class="col-1" id="igualCompreJunto">                
+                <span>=</span>
+              </div>   
+              <div class="col-3" id="valorCompreJunto">
+                <div id="resCompreJunto">                
+                  <span class="textoCompreJunto">Comprando os 3 itens por</span><br>
+                  <span class="precoCompreJunto">R$ 264,83</span><br>
+                  <span class="parcelaCompreJunto">em até 3x de R$ 88,28</span><br>
+                  <span class="parcelaCompreJunto">Você economiza <span class="red">R$ 0,49</span><br>
+                  e tem </span><span class="freteCompreJunto">Frete Grátis</span><br>
+                  
+                  <button type="button" class="btn"><i class="fa-solid fa-cart-shopping"></i> COMPRAR JUNTO</button>
+                </div>
+              </div> 
+
+            </div>
+            <div class="col-12 separacao"></div>
+          </div>
+          <div class="row">
+
+            <div class="col-12">
+    
+              <div class="container">
+    
+                <h4 class="mgt10">Livros Selecionados (Vitrine)</h4>
+    
+                <div class="row row-cols-12">
+                  <div class="col-4 arrowLeft"><i class="fa-solid fa-chevron-left"></i></div>
+                  <div class="col vitrine2 mgr1">Column</div>
+                  <div class="col vitrine2 mgr1">Column</div>
+                  <div class="col vitrine2 mgr1">Column</div>
+                  <div class="col vitrine2">Column</div>
+                  <div class="col-4 arrowRight"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+
+          <div class="row">
+
+            <div class="col-12">
+    
+              <div class="container">
+    
+                <h3 class="mgt10" id="tituloAvaliacoesProduto">AVALIAÇÕES DO PRODUTO</h3>
+                <div id="estrelasAvaliacoesProduto">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><br>
+                  <span>Baseado em 19 avaliações</span>
+                </div>
+
+                <div class="col-12 separacao"></div>
+
+
+                <div class="row row-cols-12">
+                  <div class="col-4">
+                    <div class="usuarioFoto">
+                      <img src="img/cliente_fotopadrao_mas.jpg" alt=""><br>                   
+                      <span>Anônimo</span><br>
+                      <span>São José dos Campos - SP</span><br>                      
+                      <span>23/03/2022</span>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="avaliacaoUsuario">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <span>Ótimo</span>
+                    </div>
+                    <div class="textoAvalicaoUsuario">
+                      <span>Produto:</span> Excelente<br>                      
+                      <span>Atendimento:</span> Excelente
+                    </div>
+                  </div>
+                  <div class="col-12 separacao"></div>
+                  <div class="col-4">
+                    <div class="usuarioFoto">
+                      <img src="img/cliente_fotopadrao_mas.jpg" alt=""><br>                   
+                      <span>Anônimo</span><br>
+                      <span>São José dos Campos - SP</span><br>                      
+                      <span>23/03/2022</span>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="avaliacaoUsuario">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <span>Ótimo</span>
+                    </div>
+                    <div class="textoAvalicaoUsuario">
+                      <span>Produto:</span> Excelente<br>                      
+                      <span>Atendimento:</span> Excelente
+                    </div>
+                  </div>
+                  <div class="col-12 separacao"></div>
+                  <div class="col-4">
+                    <div class="usuarioFoto">
+                      <img src="img/cliente_fotopadrao_mas.jpg" alt=""><br>                   
+                      <span>Anônimo</span><br>
+                      <span>São José dos Campos - SP</span><br>                      
+                      <span>23/03/2022</span>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="avaliacaoUsuario">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <span>Ótimo</span>
+                    </div>
+                    <div class="textoAvalicaoUsuario">
+                      <span>Produto:</span> Excelente<br>                      
+                      <span>Atendimento:</span> Excelente
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+
+
+      <div class="row">
+
+        <div class="col-12">
+
+          <div class="container">
+
+            <h5 class="mgt10">Rodapé</h5>
+
+          </div>
+
+        </div>
+
+      </div>     
+
+    </footer>
+
+  </body>
+</html>
